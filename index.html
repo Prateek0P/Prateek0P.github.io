@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: rgb(14, 14, 66);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(7, 7, 50);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(95, 95, 183);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 125px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.3rem;
+            margin: 60px 0;
+
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(6, 6, 111);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+
+        }
+
+
+        .rightSection img {
+            width: 70%;
+            margin: 60;
+
+        }
+
+        .text-purple {
+            color: rgb(150, 118, 181);
+        }
+
+        .text-gray {
+            color: gray
+        }
+
+        #element {
+            color: rgb(150, 118, 181);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: rgb(255, 255, 255);
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondSection .vertical {
+            background-color: white;
+            width: 1px;
+            height: 93px;
+            margin: 0 150px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 16px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            width: 70px;
+            font-size: 9px;
+            color: gray;
+        }
+
+        footer {
+            background-color: rgb(16, 28, 50);
+
+            ;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+        footer div ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        footer div ul li a:hover{
+            color: rgb(95, 95, 183);
+            font-size: 1.02rem;
+        }
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Pratik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1Ir2nv16wyPea6bbv58-37_EVH-tHKz5S?usp=drive_link">Projects</a></li>
+                    <li><a href="mailto:bhuktarepratik@gmail.com">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+
+            <div class="leftSection">Hello, My name is <span class="text-purple">Pratik</span>
+                <div> and I am a</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn" onclick="window.location.href='https://drive.google.com/file/d/1MwNSnjJfT2KRDXYJu1E6ruSCNigP4Lq7/view?usp=drive_link';">View Resume</button>
+                    <button class="btn" onclick="window.location.href='https://github.com/Prateek0P';">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection"><img src="web-development.png" alt=""></div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"></span class>What I have done so far!</span>
+            <h1>
+                Work Experience
+            </h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="web.png" alt="" class="image-top">
+                    <div class="vertical-title">Web Development intern</div>
+                    <div class="vertical-desc">
+                        Worked as an intern
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="web.png" alt="" class="image-top">
+                    <div class="vertical-title">Web Development intern</div>
+                    <div class="vertical-desc">
+                        Worked as an intern
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="web.png" alt="" class="image-top">
+                    <div class="vertical-title">Web Development intern</div>
+                    <div class="vertical-desc">
+                        Worked as an intern
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="web.png" alt="" class="image-top">
+                    <div class="vertical-title">Web Development intern</div>
+                    <div class="vertical-desc">
+                        Worked as an intern
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Pratik's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html" target="_self">About</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1Ir2nv16wyPea6bbv58-37_EVH-tHKz5S?usp=drive_link">Projects</a></li>
+                    <li><a href="mailto:bhuktarepratik@gmail.com">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">Copyright&#169; pratiksportfolio.com | All rights reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Ethical Hacker'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
